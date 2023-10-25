@@ -2,7 +2,7 @@ from goldenverba.ingestion.preprocess import chunk_doc
 import spacy
 
 
-nlp = spacy.blank("en")
+nlp = spacy.blank("zh")
 
 
 def test_split_length_greater_than_doc_length():

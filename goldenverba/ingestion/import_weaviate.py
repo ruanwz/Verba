@@ -22,7 +22,7 @@ load_dotenv()
 def import_weaviate() -> None:
     msg.divider("Starting data import")
 
-    nlp = spacy.blank("en")
+    nlp = spacy.blank("zh")
     nlp.add_pipe("sentencizer")
 
     # Setup Client

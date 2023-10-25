@@ -32,7 +32,7 @@ def import_data(path_str: str, model: str):
     data_path = Path(path_str)
     msg.divider("Starting data import")
 
-    nlp = spacy.blank("en")
+    nlp = spacy.blank("zh")
     nlp.add_pipe("sentencizer")
 
     # Setup Client
