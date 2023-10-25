@@ -228,11 +228,11 @@ export default function Home() {
           <div className="flex justify-between items-center w-full"> {/* <-- flexbox container */}
             <div className="flex-none">
               <div className="bg-yellow-200 border-2 border-gray-800 rounded-lg shadow-lg animate-pop-in hover-container mr-4 ">
-                <img src={`${bgUrl}yum.png`} alt="Verba Logo" className=" w-24 h-24 shadow-lg" />
+                <img src={`${bgUrl}yum.png`} alt="Logo" className=" w-24 h-24 shadow-lg" />
               </div>
             </div>
             <div className="flex-1">
-              <h1 className=" text-6xl font-bold">Verba</h1>
+              <h1 className=" text-6xl font-bold">YUM</h1>
               <div className="flex text-lg">
                 <span className="bg-opacity-0 rounded px-2 py-1 hover-container animate-pop-in">
                   Knowledge
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="rounded-t-xl bg-yellow-200 p-4 flex justify-between items-center">
               YUM Chat
               <div className="text-xs text-white font-mono flex justify-center">
-                <a href="https://github.com/weaviate/Verba" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <span
                     className={`rounded-indicator hover-container text-white p-2 ${apiStatus === 'Online'
                       ? 'bg-green-500 hover:bg-green-400'

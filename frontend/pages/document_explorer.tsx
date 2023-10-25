@@ -100,11 +100,11 @@ export default function DocumentOnly() {
                     <div className="flex justify-between items-center w-full"> {/* <-- flexbox container */}
                         <div className="flex-none">
                             <div className="bg-yellow-200 border-2 border-gray-800 rounded-lg shadow-lg animate-pop-in hover-container mr-4 ">
-                                <img src={`${bgUrl}yum.png`} alt="Verba Logo" className=" w-24 h-24 shadow-lg" />
+                                <img src={`${bgUrl}yum.png`} alt="Logo" className=" w-24 h-24 shadow-lg" />
                             </div>
                         </div>
                         <div className="flex-1">
-                            <h1 className=" text-6xl font-bold">Verba</h1>
+                            <h1 className=" text-6xl font-bold">YUM</h1>
                             <div className="flex text-lg">
                                 <span className="bg-opacity-0 rounded px-2 py-1 hover-container animate-pop-in">
                                    Knowledge 
