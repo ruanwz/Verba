@@ -279,7 +279,7 @@ export default function Home() {
 
             {/* Header */}
             <div className="rounded-t-xl bg-yellow-200 p-4 flex justify-between items-center">
-              Verba Chat
+              YUM Chat
               <div className="text-xs text-white font-mono flex justify-center">
                 <a href="https://github.com/weaviate/Verba" target="_blank" rel="noopener noreferrer">
                   <span
@@ -315,7 +315,7 @@ export default function Home() {
                 type="text"
                 value={userInput}
                 onChange={handleInputChange}
-                placeholder="What is a vector database?"
+                placeholder="How to report issue of Orders"
                 className="w-full p-2 rounded-md bg-white text-gray-900 placeholder-gray-400"
               />
             </form>
