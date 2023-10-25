@@ -1,0 +1,53 @@
+--- original.css	2023-10-25
++++ modified.css	2023-10-25
+@@ -108,8 +108,8 @@
+ /* Headers */
+ .my-markdown-styles h1,
+ .my-markdown-styles h2,
+-.my-markdown-styles h3,
+ .my-markdown-styles h4,
++.my-markdown-styles h3,
+ .my-markdown-styles h5,
+ .my-markdown-styles h6 {
+   font-weight: bold;
+@@ -121,8 +121,8 @@
+   font-size: 2em;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+-}
+-.my-markdown-styles h2 {
++}
++.my-markdown-styles h2 {
+   font-size: 1.75em;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+@@ -189,7 +189,7 @@
+ }
+ 
+ /* Inline code */
+-.my-markdown-styles code {
++.my-markdown-styles code {
+   background-color: #edebeb;
+   color: rgb(44, 161, 58);
+   border-radius: 3px;
+@@ -245,8 +245,8 @@
+ .fade-in-out {
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+-}
+-
++}
++ 
+ button:hover .fade-in-out {
+   opacity: 1;
+ }
+@@ -255,3 +255,9 @@
+   opacity: 0;
+ }
++
++/* Additions based on webpage screenshot */
++body {
++  font-family: "PingFang SC", sans-serif;
++  color: #333;
++}
+
